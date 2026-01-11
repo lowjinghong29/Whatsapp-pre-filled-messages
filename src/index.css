@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-800 font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus,
+  button:focus {
+    @apply outline-none ring-2 ring-primary ring-opacity-50;
+  }
+}
+
+/* Custom Component Styles */
+@layer components {
+  /* Glassmorphism Card */
+  .glass-card {
+    @apply bg-white bg-opacity-80 backdrop-blur-lg border border-neutral-200 rounded-2xl shadow-soft;
+  }
+
+  /* Premium Button */
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-medium;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-neutral-100 text-neutral-700 font-medium py-2 px-4 rounded-lg transition-all duration-200;
+  }
+
+  /* Input Fields */
+  .input-field {
+    @apply w-full px-4 py-3 bg-white border border-neutral-300 rounded-xl text-neutral-800 placeholder-neutral-400 transition-all duration-200 focus:border-primary focus:ring-2 focus:ring-primary focus:ring-opacity-20;
+  }
+
+  .input-error {
+    @apply border-red-500 focus:border-red-500 focus:ring-red-500;
+  }
+
+  /* Restaurant Card */
+  .restaurant-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 cursor-pointer;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply bg-primary bg-opacity-10 text-primary-dark;
+  }
+
+  .badge-secondary {
+    @apply bg-secondary bg-opacity-10 text-secondary;
+  }
+
+  /* Gradient Backgrounds */
+  .bg-gradient-primary {
+    @apply bg-gradient-to-br from-primary to-primary-dark;
+  }
+
+  .bg-gradient-hero {
+    @apply bg-gradient-to-br from-secondary via-secondary-dark to-neutral-900;
+  }
+
+  /* Animations */
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .animate-on-scroll.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent;
+  }
+
+  /* Scrollbar Styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-neutral-100 rounded-full;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-neutral-300 rounded-full hover:bg-neutral-400;
+  }
+
+  /* Container Max Widths */
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* React Datepicker Custom Styles */
+.react-datepicker-wrapper {
+  @apply w-full;
+}
+
+.react-datepicker {
+  @apply font-sans border border-neutral-300 rounded-xl shadow-medium;
+}
+
+.react-datepicker__header {
+  @apply bg-primary text-white border-none rounded-t-xl;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  @apply text-white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  @apply bg-primary-dark text-white;
+}
+
+.react-datepicker__day:hover {
+  @apply bg-primary-light bg-opacity-30;
+}
+
+.react-datepicker__day--disabled {
+  @apply text-neutral-400 cursor-not-allowed;
+}

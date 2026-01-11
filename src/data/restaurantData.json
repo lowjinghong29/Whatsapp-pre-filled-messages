@@ -1,0 +1,502 @@
+[
+    {
+        "id": "1",
+        "name": "Sushi Mentai TTDI",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Japanese",
+            "Sushi"
+        ],
+        "locationDistrict": "Taman Tun Dr Ismail",
+        "city": "Kuala Lumpur",
+        "address": "No. 1, Jalan Tun Mohd Fuad, Taman Tun Dr Ismail, 60000 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "11:00-22:00",
+            "tuesday": "11:00-22:00",
+            "wednesday": "11:00-22:00",
+            "thursday": "11:00-22:00",
+            "friday": "11:00-23:00",
+            "saturday": "11:00-23:00",
+            "sunday": "11:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Affordable conveyor belt sushi with fresh ingredients and modern ambiance",
+        "heroImage": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&h=450&fit=crop",
+        "reservationCount": 127
+    },
+    {
+        "id": "2",
+        "name": "Nasi Kandar Pelita",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Malay",
+            "Indian"
+        ],
+        "locationDistrict": "Bangsar",
+        "city": "Kuala Lumpur",
+        "address": "No. 12, Jalan Telawi 3, Bangsar Baru, 59100 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "00:00-23:59",
+            "tuesday": "00:00-23:59",
+            "wednesday": "00:00-23:59",
+            "thursday": "00:00-23:59",
+            "friday": "00:00-23:59",
+            "saturday": "00:00-23:59",
+            "sunday": "00:00-23:59"
+        },
+        "priceRange": "budget",
+        "description": "Famous 24/7 Mamak restaurant with variety of curries and roti canai",
+        "heroImage": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&h=450&fit=crop",
+        "reservationCount": 89
+    },
+    {
+        "id": "3",
+        "name": "The Italian Job",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Italian",
+            "Western"
+        ],
+        "locationDistrict": "Bukit Bintang",
+        "city": "Kuala Lumpur",
+        "address": "Lot 2.01, Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "12:00-22:00",
+            "tuesday": "12:00-22:00",
+            "wednesday": "12:00-22:00",
+            "thursday": "12:00-22:00",
+            "friday": "12:00-23:00",
+            "saturday": "12:00-23:00",
+            "sunday": "12:00-22:00"
+        },
+        "priceRange": "fine-dining",
+        "description": "Authentic Italian cuisine with wood-fired pizzas and handmade pasta",
+        "heroImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=450&fit=crop",
+        "reservationCount": 156
+    },
+    {
+        "id": "4",
+        "name": "Kim Gary Restaurant",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Chinese",
+            "Hong Kong Style"
+        ],
+        "locationDistrict": "Mid Valley",
+        "city": "Kuala Lumpur",
+        "address": "F-068A, 1st Floor, Mid Valley Megamall, 59200 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "10:00-22:00",
+            "tuesday": "10:00-22:00",
+            "wednesday": "10:00-22:00",
+            "thursday": "10:00-22:00",
+            "friday": "10:00-22:30",
+            "saturday": "10:00-22:30",
+            "sunday": "10:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Popular Hong Kong-style cafe with hearty set meals and signature baked rice",
+        "heroImage": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&h=450&fit=crop",
+        "reservationCount": 94
+    },
+    {
+        "id": "5",
+        "name": "Seoul Garden Hotpot",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Korean",
+            "BBQ"
+        ],
+        "locationDistrict": "Sunway Pyramid",
+        "city": "Kuala Lumpur",
+        "address": "LG2.122A, Sunway Pyramid, Bandar Sunway, 47500 Petaling Jaya",
+        "operatingHours": {
+            "monday": "11:30-21:30",
+            "tuesday": "11:30-21:30",
+            "wednesday": "11:30-21:30",
+            "thursday": "11:30-21:30",
+            "friday": "11:30-22:00",
+            "saturday": "11:30-22:00",
+            "sunday": "11:30-21:30"
+        },
+        "priceRange": "mid-range",
+        "description": "All-you-can-eat Korean BBQ and hotpot buffet with fresh ingredients",
+        "heroImage": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=450&fit=crop",
+        "reservationCount": 203
+    },
+    {
+        "id": "6",
+        "name": "Restoran Yut Kee",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Chinese",
+            "Hainanese"
+        ],
+        "locationDistrict": "Dang Wangi",
+        "city": "Kuala Lumpur",
+        "address": "1, Jalan Kamunting, Chow Kit, 50300 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "Closed",
+            "tuesday": "07:30-16:00",
+            "wednesday": "07:30-16:00",
+            "thursday": "07:30-16:00",
+            "friday": "07:30-16:00",
+            "saturday": "07:30-16:00",
+            "sunday": "Closed"
+        },
+        "priceRange": "budget",
+        "description": "Iconic heritage kopitiam serving Hainanese classics since 1928",
+        "heroImage": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&h=450&fit=crop",
+        "reservationCount": 76
+    },
+    {
+        "id": "7",
+        "name": "Madam Kwan's",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Malay",
+            "Nyonya"
+        ],
+        "locationDistrict": "KLCC",
+        "city": "Kuala Lumpur",
+        "address": "Suria KLCC, Lot 2.02.000, Level 2, Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "11:00-22:00",
+            "tuesday": "11:00-22:00",
+            "wednesday": "11:00-22:00",
+            "thursday": "11:00-22:00",
+            "friday": "11:00-22:30",
+            "saturday": "11:00-22:30",
+            "sunday": "11:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Beloved Malaysian restaurant famous for nasi lemak and traditional dishes",
+        "heroImage": "https://images.unsplash.com/photo-1596040033229-a0b44e4c6e29?w=800&h=450&fit=crop",
+        "reservationCount": 168
+    },
+    {
+        "id": "8",
+        "name": "Beta KL",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Western",
+            "Fusion"
+        ],
+        "locationDistrict": "Changkat Bukit Bintang",
+        "city": "Kuala Lumpur",
+        "address": "G-01, 3 Changkat Bukit Bintang, 50200 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "Closed",
+            "tuesday": "18:00-23:30",
+            "wednesday": "18:00-23:30",
+            "thursday": "18:00-23:30",
+            "friday": "18:00-00:00",
+            "saturday": "18:00-00:00",
+            "sunday": "Closed"
+        },
+        "priceRange": "fine-dining",
+        "description": "Contemporary Malaysian fine dining with innovative tasting menus",
+        "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=450&fit=crop",
+        "reservationCount": 142
+    },
+    {
+        "id": "9",
+        "name": "Jibby & Co",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Cafe",
+            "Western"
+        ],
+        "locationDistrict": "Ampang",
+        "city": "Kuala Lumpur",
+        "address": "31, Jalan Ampang Utara 1, Taman Ampang Utama, 68000 Ampang",
+        "operatingHours": {
+            "monday": "09:00-18:00",
+            "tuesday": "09:00-18:00",
+            "wednesday": "09:00-18:00",
+            "thursday": "09:00-18:00",
+            "friday": "09:00-18:00",
+            "saturday": "09:00-19:00",
+            "sunday": "09:00-19:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Trendy cafe known for brunch, artisan coffee, and photogenic interiors",
+        "heroImage": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&h=450&fit=crop",
+        "reservationCount": 221
+    },
+    {
+        "id": "10",
+        "name": "Tonkatsu by Ma Maison",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Japanese",
+            "Tonkatsu"
+        ],
+        "locationDistrict": "1 Utama",
+        "city": "Kuala Lumpur",
+        "address": "S324, Second Floor, 1 Utama Shopping Centre, 47800 Petaling Jaya",
+        "operatingHours": {
+            "monday": "10:00-22:00",
+            "tuesday": "10:00-22:00",
+            "wednesday": "10:00-22:00",
+            "thursday": "10:00-22:00",
+            "friday": "10:00-22:00",
+            "saturday": "10:00-22:00",
+            "sunday": "10:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Premium Japanese tonkatsu with perfectly crispy pork cutlets",
+        "heroImage": "https://images.unsplash.com/photo-1562059392-096320bccc7e?w=800&h=450&fit=crop",
+        "reservationCount": 115
+    },
+    {
+        "id": "11",
+        "name": "Atmosphere 360",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "International",
+            "Fine Dining"
+        ],
+        "locationDistrict": "KL Tower",
+        "city": "Kuala Lumpur",
+        "address": "KL Tower, 2 Jalan Punchak, Off Jalan P Ramlee, 50250 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "11:30-14:30, 18:30-22:30",
+            "tuesday": "11:30-14:30, 18:30-22:30",
+            "wednesday": "11:30-14:30, 18:30-22:30",
+            "thursday": "11:30-14:30, 18:30-22:30",
+            "friday": "11:30-14:30, 18:30-22:30",
+            "saturday": "11:30-14:30, 18:30-22:30",
+            "sunday": "11:30-14:30, 18:30-22:30"
+        },
+        "priceRange": "fine-dining",
+        "description": "Revolving restaurant with panoramic KL views and international buffet",
+        "heroImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=450&fit=crop",
+        "reservationCount": 98
+    },
+    {
+        "id": "12",
+        "name": "Precious Old China",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Nyonya",
+            "Peranakan"
+        ],
+        "locationDistrict": "Central Market",
+        "city": "Kuala Lumpur",
+        "address": "Lot 2, Mezzanine Floor, Central Market Annexe, Jalan Hang Kasturi, 50050 Kuala Lumpur",
+        "operatingHours": {
+            "monday": "12:00-21:30",
+            "tuesday": "12:00-21:30",
+            "wednesday": "12:00-21:30",
+            "thursday": "12:00-21:30",
+            "friday": "12:00-21:30",
+            "saturday": "12:00-21:30",
+            "sunday": "12:00-21:30"
+        },
+        "priceRange": "mid-range",
+        "description": "Authentic Nyonya cuisine in a nostalgic heritage setting",
+        "heroImage": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&h=450&fit=crop",
+        "reservationCount": 87
+    },
+    {
+        "id": "13",
+        "name": "Teksen Restaurant",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Chinese",
+            "Seafood"
+        ],
+        "locationDistrict": "Georgetown",
+        "city": "Penang",
+        "address": "18, Lebuh Carnarvon, George Town, 10100 Penang",
+        "operatingHours": {
+            "monday": "17:00-22:00",
+            "tuesday": "17:00-22:00",
+            "wednesday": "17:00-22:00",
+            "thursday": "17:00-22:00",
+            "friday": "17:00-22:00",
+            "saturday": "17:00-22:00",
+            "sunday": "17:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Popular Chinese seafood restaurant in Penang's heritage district",
+        "heroImage": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=450&fit=crop",
+        "reservationCount": 134
+    },
+    {
+        "id": "14",
+        "name": "Suffolk House Restaurant",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Western",
+            "British"
+        ],
+        "locationDistrict": "Air Itam",
+        "city": "Penang",
+        "address": "250, Jalan Air Itam, 10460 George Town, Penang",
+        "operatingHours": {
+            "monday": "Closed",
+            "tuesday": "11:00-22:00",
+            "wednesday": "11:00-22:00",
+            "thursday": "11:00-22:00",
+            "friday": "11:00-22:00",
+            "saturday": "11:00-22:00",
+            "sunday": "11:00-22:00"
+        },
+        "priceRange": "fine-dining",
+        "description": "Colonial-era mansion restaurant serving British and European cuisine",
+        "heroImage": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=450&fit=crop",
+        "reservationCount": 72
+    },
+    {
+        "id": "15",
+        "name": "Hameediyah Restaurant",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Indian",
+            "Malay"
+        ],
+        "locationDistrict": "Georgetown",
+        "city": "Penang",
+        "address": "164A, Lebuh Campbell, George Town, 10100 Penang",
+        "operatingHours": {
+            "monday": "10:00-22:00",
+            "tuesday": "10:00-22:00",
+            "wednesday": "10:00-22:00",
+            "thursday": "10:00-22:00",
+            "friday": "10:00-22:00",
+            "saturday": "10:00-22:00",
+            "sunday": "10:00-22:00"
+        },
+        "priceRange": "budget",
+        "description": "Oldest nasi kandar restaurant in Penang, serving since 1907",
+        "heroImage": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&h=450&fit=crop",
+        "reservationCount": 112
+    },
+    {
+        "id": "16",
+        "name": "The Replacement",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Western",
+            "Cafe"
+        ],
+        "locationDistrict": "Tanjung Bungah",
+        "city": "Penang",
+        "address": "92, Jalan Sultan Ahmad Shah, 10050 George Town, Penang",
+        "operatingHours": {
+            "monday": "09:00-22:00",
+            "tuesday": "09:00-22:00",
+            "wednesday": "09:00-22:00",
+            "thursday": "09:00-22:00",
+            "friday": "09:00-23:00",
+            "saturday": "09:00-23:00",
+            "sunday": "09:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Hip cafe with lodge-inspired decor serving comfort food and cocktails",
+        "heroImage": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&h=450&fit=crop",
+        "reservationCount": 159
+    },
+    {
+        "id": "17",
+        "name": "IT Roo Cafe",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Fusion",
+            "Mediterranean"
+        ],
+        "locationDistrict": "Johor Bahru City",
+        "city": "Johor Bahru",
+        "address": "67, Jalan Dhoby, Bandar Johor Bahru, 80000 Johor Bahru",
+        "operatingHours": {
+            "monday": "Closed",
+            " tuesday": "12:00-22:00",
+            "wednesday": "12:00-22:00",
+            "thursday": "12:00-22:00",
+            "friday": "12:00-22:00",
+            "saturday": "12:00-22:00",
+            "sunday": "12:00-22:00"
+        },
+        "priceRange": "mid-range",
+        "description": "Contemporary fusion restaurant in a charming heritage shophouse",
+        "heroImage": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&h=450&fit=crop",
+        "reservationCount": 95
+    },
+    {
+        "id": "18",
+        "name": "Hua Mui Restaurant",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Chinese",
+            "Hainanese"
+        ],
+        "locationDistrict": "Johor Bahru City",
+        "city": "Johor Bahru",
+        "address": "22, Jalan Trus, Bandar Johor Bahru, 80000 Johor Bahru",
+        "operatingHours": {
+            "monday": "08:00-20:00",
+            "tuesday": "08:00-20:00",
+            "wednesday": "08:00-20:00",
+            "thursday": "08:00-20:00",
+            "friday": "08:00-20:00",
+            "saturday": "08:00-20:00",
+            "sunday": "08:00-20:00"
+        },
+        "priceRange": "budget",
+        "description": "Historic coffeeshop established in 1946, famous for banana cake",
+        "heroImage": "https://images.unsplash.com/photo-1519996409144-56c88426e754?w=800&h=450&fit=crop",
+        "reservationCount": 68
+    },
+    {
+        "id": "19",
+        "name": "Salahuddin Bakery",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Indian",
+            "Bakery"
+        ],
+        "locationDistrict": "Johor Bahru City",
+        "city": "Johor Bahru",
+        "address": "12, Jalan Ngee Heng, 80000 Johor Bahru",
+        "operatingHours": {
+            "monday": "06:00-21:00",
+            "tuesday": "06:00-21:00",
+            "wednesday": "06:00-21:00",
+            "thursday": "06:00-21:00",
+            "friday": "06:00-21:00",
+            "saturday": "06:00-21:00",
+            "sunday": "06:00-21:00"
+        },
+        "priceRange": "budget",
+        "description": "Legendary bakery known for fluffy buns and traditional Indian cakes",
+        "heroImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=450&fit=crop",
+        "reservationCount": 54
+    },
+    {
+        "id": "20",
+        "name": "Mee Rebus Haji Wahid",
+        "whatsappNumber": "60128171129",
+        "cuisineTypes": [
+            "Malay",
+            "Street Food"
+        ],
+        "locationDistrict": "Larkin",
+        "city": "Johor Bahru",
+        "address": "Jalan Kolam Air, Larkin Jaya, 80350 Johor Bahru",
+        "operatingHours": {
+            "monday": "07:00-14:00",
+            "tuesday": "07:00-14:00",
+            "wednesday": "07:00-14:00",
+            "thursday": "07:00-14:00",
+            "friday": "07:00-14:00",
+            "saturday": "07:00-14:00",
+            "sunday": "Closed"
+        },
+        "priceRange": "budget",
+        "description": "Iconic mee rebus stall that's been a JB favorite for decades",
+        "heroImage": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&h=450&fit=crop",
+        "reservationCount": 83
+    }
+]
